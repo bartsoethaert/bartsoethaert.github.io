@@ -7,7 +7,11 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-group%2Fbsoethae%2F3279&jsonp=1"></script>
+  <div id="bibliography"></div>
+      <script
+        src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-group%2Fbsoethae%2F3279&jsonp=1&nocache=1"
+        onload="hideLoader()"></script>
+    </div>
 {% endif %}
 
 {% include base_path %}
