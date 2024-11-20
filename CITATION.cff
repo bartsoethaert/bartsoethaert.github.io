@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you reference this data repository, please cite it as below."
+authors:
+- family-names: "Soethaert"
+  given-names: "Bart"
+  orcid: "https://orcid.org/0000-0002-3845-605X"
+title: "bartsoethaert.github.io"
+version: 1.0.0
+date-released: 2025-01-01
+url: "https://github.com/bartsoethaert/bartsoethaert.github.io"
